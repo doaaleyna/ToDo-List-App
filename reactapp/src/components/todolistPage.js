@@ -1,11 +1,17 @@
 
 import React from "react";
 import "./todolistPage.css";
+import Todo from "./todo";
 
-const ToDoList = () => {
+function ToDoList(){
     return (
-        <div>
-           App
+        <div className="container border border-primary rounded mt-5"
+          style={{
+              background:`url("../images/wallpaper.jpg")`,
+              backgroundSize:`cover`
+          }}
+        >
+           <Todo/>
         </div>
     )
 }
