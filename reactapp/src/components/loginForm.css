@@ -1,5 +1,4 @@
-
-*{
+ *{
     margin: 0;
     box-sizing: border-box;
     font-family: "CustomFont";
@@ -63,4 +62,4 @@ input:focus{
 .login-btn:hover{
     transform: scale(1.25);
 }
-
+ 
