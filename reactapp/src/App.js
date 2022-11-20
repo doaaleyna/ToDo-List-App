@@ -36,8 +36,7 @@ function App() {
         {(user.email != "") ? (
           <div className='welcome'>
             <ToDoList/>
-            {/* <h2>Welcome,<span>{user.email}</span></h2> */}
-            {/* <button onClick={Logout}>Logout</button> */}
+             <button className='btn btn-secondary mt-4 mb-4' onClick={Logout}>Logout</button> 
           </div>
         ):(
           <LoginForm Login={Login} error={error}/>
